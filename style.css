@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap');
+*{
+    margin:0;
+    padding: 0;
+    
+}
+ /* menu de la barre horizontale */ 
+
+nav{
+    font-family:'Nunito', sans-serif;
+    background-color: rgb(206, 0, 51);
+
+}
+img{
+    width: 50px;
+    height: 50px;
+}
+li a i{
+  
+    font-size: 24px;
+    margin:10px;
+
+}
+.active{
+    padding: 15px;
+    background-color: white;
+    border-radius: 8px;
+}
+
+.nav-link{
+    padding:15px !important;
+    border-radius: 8px !important;
+    color: white !important; 
+}
+
+.nav-link:hover{
+    background-color: white !important;
+    color:rgb(206, 0, 51)!important;
+
+}
+
+#right{
+margin-left: 170px;
+}
+#left{
+    margin-right: 110px;
+}
+.navbar-nav span{
+    display: flex;
+    flex-direction: column;
+    font-size: 12px;
+    text-align: center;
+}
+ /* menu de la barre verticale */ 
+.sidebar{
+    margin-top: 3px;
+    border-radius:30px;
+    font-family:'Nunito', sans-serif;
+    background-color: rgb(206, 0, 51);
+    width: 100px;    
+    padding: 0;
+    }
+.sidebar a{
+    display: flex;
+    flex-direction: column;
+    font-size: 12px;
+    text-decoration: none;
+    color: white;
+
+}
+
+.bouton{
+    padding: 0 7px;
+    font-family: "Nunito Sans", sans-serif;
+    border-radius: 8px;
+    border: 2px solid rgb(80, 77, 193);
+    color: rgb(80, 77, 193);
+    background-color: white;
+    font-size: 13px;
+    transition: all 0.2s ease 0s;
+}
+
+ /* le scroller du de l'application */ 
+
+::-webkit-scrollbar {
+    width: 10px;
+    height: 50px !important;
+}
+::-webkit-scrollbar-thumb {
+    border: 3px solid  rgb(80, 77, 193);
+    background-color:  rgb(80, 77, 193);
+    border-radius: 0.8rem;
+}
+::-webkit-scrollbar-track {
+    height: 1rem;
+}
+ /* les differentes sections */ 
+
+section{
+    margin-top: 5px;
+    background-color: white;
+    border: solid 1px white;
+    border-radius: 8px;
+
+}
+.col-md-2{
+width: 10% !important;
+}
+.col-md-10{
+    width: 90% !important;
+    }
+     /* le footer */ 
+
+.footer li{
+    display: inline;
+    font-family: "Nunito Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    margin: 20px;
+
+}
+.footer li a{
+    text-decoration: none;
+    color: rgb(80, 77, 193) !important;
+
+}
+.footer{
+    padding-top: 20px;
+    height: 50px;
+    text-align: center;
+}
